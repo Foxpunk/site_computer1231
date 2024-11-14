@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Игровые ПК</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="/scripts.js" defer></script> 
+</head>
+<body>
+  <header>
+    <div class="logo-nav">
+      <h1><a href="index.html" class="site-title">Интернет-магазин <span class="highlight">ПК</span></a></h1>
+      <nav>
+        <ul>
+          <li><a href="gaming-pcs.html">Игровые ПК</a></li>
+          <li><a href="laptops.html">Ноутбуки</a></li>
+          <li><a href="services.html">Услуги</a></li>
+        </ul>
+      </nav>
+      <div class="auth-buttons">
+        <a href="login.html" class="auth-link">Войти</a>
+        <a href="register.html" class="auth-link">Регистрация</a>
+        <button id="logoutButton" style="display: none;">Выйти</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1>Игровые ПК</h1>
+
+     <!-- Товар 1 -->
+     <div class="product-card">
+      <img src="images/gaming_pc1.jpg" alt="PC Master 5000">
+      <div class="product-description">
+        <h2 class="product-title">PC Master 5000</h2>
+        <hr>
+        <p>Игровой компьютер с высокой производительностью для современных игр и многозадачности.</p>
+        <ul>
+          <li>Процессор: Intel Core i9-11900K (8 ядер, до 5.3 ГГц)</li>
+          <li>Видеокарта: NVIDIA GeForce RTX 3080 (10 ГБ)</li>
+          <li>ОЗУ: 32 ГБ DDR4 (3200 МГц)</li>
+          <li>Накопитель: SSD 1 ТБ + HDD 2 ТБ</li>
+          <li>Цена: 230,000 ₽</li>
+        </ul>
+        <form class="purchase-form">
+          <button id="buyButton" data-model-name="PC Master 5000">Купить</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Товар 2 -->
+    <div class="product-card">
+      <img src="images/gaming_pc2.jpg" alt="Creator Station Pro">
+      <div class="product-description">
+        <h2 class="product-title">Creator Station Pro</h2>
+        <hr>
+        <p>ПК для профессионалов в графическом дизайне, фото и видео монтаже.</p>
+        <ul>
+          <li>Процессор: AMD Ryzen 9 5900X (12 ядер, до 4.8 ГГц)</li>
+          <li>Видеокарта: NVIDIA GeForce RTX 3070 (8 ГБ)</li>
+          <li>ОЗУ: 64 ГБ DDR4 (3600 МГц)</li>
+          <li>Накопитель: SSD NVMe 2 ТБ</li>
+          <li>Цена: 280,000 ₽</li>
+        </ul>
+        <form class="purchase-form">
+          <button id="buyButton" data-model-name="Creator Station Pro">Купить</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Товар 3 -->
+    <div class="product-card">
+      <img src="images/gaming_pc3.jpg" alt="Home Office 2024">
+      <div class="product-description">
+        <h2 class="product-title">Home Office 2024</h2>
+        <hr>
+        <p>Идеальное решение для работы из дома с возможностью комфортной работы с офисными приложениями.</p>
+        <ul>
+          <li>Процессор: Intel Core i5-11400 (6 ядер, до 4.4 ГГц)</li>
+          <li>Видеокарта: Intel UHD Graphics 730</li>
+          <li>ОЗУ: 16 ГБ DDR4</li>
+          <li>Накопитель: SSD 512 ГБ</li>
+          <li>Цена: 85,000 ₽</li>
+        </ul>
+        <form class="purchase-form">
+          <button id="buyButton" data-model-name="Home Office 2024">Купить</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Товар 4 -->
+    <div class="product-card">
+      <img src="images/gaming_pc1.jpg" alt="Gamer’s Dream XT">
+      <div class="product-description">
+        <h2 class="product-title">Gamer’s Dream XT</h2>
+        <hr>
+        <p>Компьютер для геймеров с высокой производительностью и RGB-подсветкой.</p>
+        <ul>
+          <li>Процессор: AMD Ryzen 7 5800X (8 ядер, до 4.7 ГГц)</li>
+          <li>Видеокарта: NVIDIA GeForce RTX 3060 Ti (8 ГБ)</li>
+          <li>ОЗУ: 32 ГБ DDR4</li>
+          <li>Накопитель: SSD 1 ТБ + HDD 1 ТБ</li>
+          <li>Цена: 170,000 ₽</li>
+        </ul>
+        <form class="purchase-form">
+          <button id="buyButton" data-model-name="Gamer’s Dream XT">Купить</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Товар 5 -->
+    <div class="product-card">
+      <img src="images/gaming_pc1.jpg" alt="Business Pro 2024">
+      <div class="product-description">
+        <h2 class="product-title">Business Pro 2024</h2>
+        <hr>
+        <p>Надёжный ПК для работы в офисе и с корпоративными задачами.</p>
+        <ul>
+          <li>Процессор: Intel Core i7-10700 (8 ядер, до 4.8 ГГц)</li>
+          <li>Видеокарта: Intel UHD Graphics 630</li>
+          <li>ОЗУ: 16 ГБ DDR4</li>
+          <li>Накопитель: SSD 1 ТБ</li>
+          <li>Цена: 120,000 ₽</li>
+        </ul>
+        <form class="purchase-form">
+          <button id="buyButton" data-model-name="Business Pro 2024">Купить</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Товар 6 -->
+    <div class="product-card">
+      <img src="images/gaming_pc1.jpg" alt="Ultimate Workstation">
+      <div class="product-description">
+        <h2 class="product-title">Ultimate Workstation</h2>
+        <hr>
+        <p>Мощная рабочая станция для работы с тяжёлыми вычислениями и 3D-моделированием.</p>
+        <ul>
+          <li>Процессор: AMD Threadripper 3960X (24 ядра, до 4.5 ГГц)</li>
+          <li>Видеокарта: NVIDIA Quadro RTX 5000 (16 ГБ)</li>
+          <li>ОЗУ: 128 ГБ DDR4 ECC</li>
+          <li>Накопитель: SSD NVMe 4 ТБ</li>
+          <li>Цена: 700,000 ₽</li>
+        </ul>
+        <form class="purchase-form">
+          <button id="buyButton" data-model-name="Ultimate Workstation">Купить</button>
+        </form>
+      </div>
+    </div>
+  
+  </main>
+
+  <footer>
+    <p>© 2024 Интернет-магазин ПК</p>
+  </footer>
+
+</body>
+</html>
